@@ -1,0 +1,48 @@
+.menu
+  display: flex
+  align-items: center
+  justify-content: space-between
+  border-radius: 10px
+  background-color: $brown
+  overflow: hidden
+  height: 34px
+  &-list
+    display: flex
+    justify-content: space-between
+    width: 100%
+    &__item
+      &--active
+        background-color: $yellow
+    &__link
+      display: inline-block
+      padding: 9px 16px
+      color: $white
+      font-weight: 600
+      font-size: 14px
+      line-height: 16px
+      text-decoration: none
+      &--active
+        color: $brown
+  &-description
+    &__text
+      display: none
+      &--active
+        display: flex
+.search
+  background-color: $yellow
+  padding: 6px 7px 4px 8px
+  margin-right: 59px
+  height: 100%
+
+.sale-block
+  background-color: $yellow
+  height: 100%
+  padding: 10px 15px 18px 14px
+  color: $brown
+  font-weight: 600
+  font-size: 14px
+  line-height: 16px
+  text-transform: uppercase
+  text-decoration: none
+  margin-left: 74px
+  cursor: pointer
